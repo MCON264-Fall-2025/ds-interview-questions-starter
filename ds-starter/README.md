@@ -6,7 +6,7 @@ project structure and commit should look like.
 
 ---
 
-## 📁 Repository Layout
+## Repository Layout
 Modules are organized by problem.
 Each module contains the following files:
 ```
@@ -15,7 +15,7 @@ problem-name/
 ── README.md
 ├── src/main/java/.../Solution.java
 └── src/test/java/.../SolutionTest.java
-``
+```
 
 ###  `Solution.java`
 Contains your implementation for the problem described in the assignment.  
@@ -46,17 +46,17 @@ You are expected to:
 
 ---
 
-## ⚙️ Running Tests Locally
+##  Running Tests Locally
 
 You can use **JUnit 5** with either Maven or IntelliJ.
 
-### ▶️ Option 1: IntelliJ
+###  Option 1: IntelliJ
 - Open the repo in IntelliJ.
 - Right-click `SolutionTest.java`.
 - Choose **Run 'SolutionTest'**.
-- All tests should pass (✅ green).
+- All tests should pass 
 
-### ▶️ Option 2: Command Line (Maven)
+### Option 2: Command Line (Maven)
 If you have Maven installed:
 ```bash
 mvn test
@@ -79,11 +79,11 @@ GitHub Classroom will automatically create a pull request to the feedback branch
 Take a screenshot of your passing unit tests.
 
 Submit the screenshot and the PR link in Canvas.
-
-✅ Example Output
+Example Output
 
 When all tests pass, you should see something like this:
 
+```
 -------------------------------------------------------
  T E S T S
 -------------------------------------------------------
@@ -92,8 +92,9 @@ Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
 -------------------------------------------------------
 BUILD SUCCESS
 -------------------------------------------------------
+```
 
-💡 Tips
+Tips
 
 Don’t rename files or change package names.
 
